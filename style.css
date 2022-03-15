@@ -17,10 +17,12 @@ ul {
     border: 2px solid white;
     border-radius: 10px;
     padding-left: 0px;
+    margin-right: 20px;
 }
 
 li {
     padding: 20px;
+    color: white;
 }
 
 ul {
@@ -33,15 +35,17 @@ button {
     padding: 10px;
     border: 0;
     border-radius: 10px;
+    font-family: work sans;
 }
 
 body {
     font-family: work sans;
+    margin: 0;
 }
 main {
     display: flex;
     flex-direction: column;
-    margin: 10px 10px 70px 10px;
+    margin: 30px 30px 70px 30px;
 }
 
 footer {
@@ -90,7 +94,7 @@ img {
         flex-direction: row;
     }
     #info {
-        margin: 20px;
+        margin: 0px 20px;
         width: 33%;
     }
     #available-pets {
